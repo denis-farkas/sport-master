@@ -1,0 +1,53 @@
+.containerHeader {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.TitreSite {
+  color: var(--secondary);
+  font-size: 40px;
+  color: var(--secondary) !important;
+}
+@media screen and (max-width:490px){
+  .TitreSite{
+    font-size: 20px;
+  }
+}
+.btnInscription {
+  background-color: var(--secondary);
+  color: black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btnConnection {
+  text-transform: uppercase;
+}
+
+.imgLogo {
+  width: 25px;
+}
+
+.menuItem{
+font-weight: bold;
+
+}
+.menuItem:hover{
+color:orangered !important;
+
+
+}
+
+
+
+/* .nav {
+ 
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+} */

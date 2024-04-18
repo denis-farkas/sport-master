@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    // le base url est defini sur point "." pour ne pas utiliser les (point ../../)lors des imports
+    "baseUrl": "."
+  }
+}

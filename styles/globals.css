@@ -1,0 +1,275 @@
+/* html{
+  /* Html font-size = 16px */
+/* 1 rem = 16px */
+/* font-size: 62.5%; */
+/* }  */
+
+/* Html font-size = 16px */
+/* 1 rem = 16px */
+
+/* bootstrap breakpoint 
+
+
+Small =   ≥576px  md
+Medium =   ≥768px  md
+Large =   ≥992px  lg
+Extra large =   ≥1200px  xl
+ style global
+*/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --primary: #333333;
+  --secondary: #fe7000;
+  --couleur-texte1: #fff;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.app-container {
+  margin-top: 150px;
+  min-height: 430px;
+}
+.membreP{
+  
+    display: block;
+    margin-block-start: 8px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+/* boutons */
+.btnGlobal {
+  background-color: var(--secondary);
+  color: #000;
+  border-radius: 10px;
+  /* padding: 10px 10px; */
+  padding: 5px 10px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  border: none;
+}
+
+.partieGauche h1 {
+  color: var(--couleur-texte1);
+  text-transform: uppercase;
+}
+
+main p {
+  color: var(--couleur-texte1);
+}
+
+@media screen and (max-width: 768px) {
+  .carteAbonnement {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 490px){
+
+  .cardTarifs{
+    font-size: 13px;
+   
+  }
+
+.contenu-footer{
+  margin-left: 15% !important;
+}
+}
+@media (max-width: 992px){
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    align-items: start !important;
+   
+}
+
+.contenu-footer{
+  margin-left: 30%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .navigationBoutons {
+    margin-bottom: 10px;
+  }
+  .btn1 {
+    margin-bottom: 30px;
+  }
+
+
+}
+
+/* @media screen and (min-width:1100px ){
+  .carteContainerAbonnement{
+  flex-wrap: nowrap;
+  }
+} */
+
+/* SECTION */
+.pageAbonnement {
+  margin-top: 100px;
+}
+.sportifEntrainement {
+  width: 80%;
+}
+/* Abonnement */
+
+
+.carteAbonnement {
+  gap: 15px;
+  color: #000;
+}
+
+
+.txtAbonnement {
+  max-width: 500px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.titreAbonnement {
+  color: #3b444b;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cardTarifs {
+  /* border: 1px solid #333333; */
+  padding: 0;
+  margin: 50px 0;
+  box-shadow: 1px 0px 6px -2px;
+  border-radius: 10px;
+  height: 450px;
+  color: white;
+  background: #333;
+
+}
+
+.typeAbonnement {
+  
+  color: #3c454d;
+  cursor: default;
+  font-size: 16px;
+  background-color: var(--secondary);
+
+  font-weight: bold;
+  letter-spacing: normal;
+
+  text-align: center;
+  text-transform: uppercase;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.prix {
+  font-family: CactusBlack;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 1.22;
+  font-style: oblique;
+  color: #ffd600;
+}
+
+.prixCarte {
+  background-color: #ffd600;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  padding: 3px 8px;
+  color: #333;
+}
+
+.trait {
+  height: 2px;
+  width: 10%;
+  margin: 0 auto;
+
+  background-color: var(--secondary);
+}
+
+/* mon club */
+
+.blocClub {
+  margin-top: 100px;
+}
+
+.ClubText {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.textFitness {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.boutons-footer{
+  color:#fff;
+}
+
+.btnInscription{
+ background-color: var(--secondary);
+}
+
+.btnInscription:hover{
+ background-color: var(--secondary);
+}
+
+.btnReset{
+  background-color: var(--primary);
+  color: #fff;
+ }
+.btnReset:hover{
+  background-color: var(--primary);
+  color: #fff;
+ }
+
+ /* message d'erreur */
+
+ .error{
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#c70b0b ;
+
+ }
+
+ .titreErreur{
+  margin: 0;
+  font-size: 100px;
+  font-weight: 700;
+ }
+
+ .error p{
+  font-size: 16px;
+ }
+
+ .liensFooterAdmin{
+  font-size: 16px;
+ }
+
+ 

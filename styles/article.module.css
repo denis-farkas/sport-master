@@ -1,0 +1,47 @@
+.actu {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.trait {
+  height: 2px;
+  width: 20%;
+
+  margin: 0 auto;
+  background-color: var(--secondary);
+}
+
+.txtBas {
+  background: var(--primary);
+  padding-bottom: 0 20px 20px;
+}
+.txtBas p,
+.titreBlog,
+.liensArticle {
+  color: white;
+}
+
+.titreBlog {
+  font-size: 13px;
+}
+
+.trait2 {
+  padding: 0px;
+  width: 57px;
+  height: 2px;
+  background-color: var(--secondary);
+  margin: 10px 0;
+}
+
+.blocCard {
+  padding: 25px 20px 15px;
+}
+
+.blocCard a{
+  color: #fff;
+}
+
+.separation {
+  height: 15px;
+  background-color: white;
+}

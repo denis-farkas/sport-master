@@ -1,0 +1,5 @@
+{
+  "extends": "next/core-web-vitals"
+}
+
+// configure les règles qui sont activées lors de l'exécution npm run lintou next lintde l'exécution sur le projet.

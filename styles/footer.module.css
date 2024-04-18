@@ -1,0 +1,18 @@
+.couleurFooter {
+  background-color: var(--primary);
+  color: white;
+}
+
+.trait {
+  width: 142px;
+  height: 2px;
+  background-color: var(--secondary);
+  margin: 10px 0;
+}
+.liste {
+  padding: 0;
+}
+
+.nav-item a{
+  font-size: 80px;
+}

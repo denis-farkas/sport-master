@@ -1,0 +1,28 @@
+.couleurFond {
+  background-color: var(--primary);
+  color: white;
+}
+
+.trait {
+  padding: 0px;
+  width: 57px;
+  height: 2px;
+  background-color: var(--secondary);
+  margin: 10px auto;
+}
+
+.trait2 {
+  margin: 10px 0;
+  width: 57px;
+  height: 2px;
+  background-color: var(--secondary);
+}
+
+@media screen and (max-width: 1000px) {
+  .imgDroiteSportif {
+    order: 2 !important;
+  }
+  .stylesTextGauche {
+    order: 1;
+  }
+}
